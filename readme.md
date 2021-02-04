@@ -1,3 +1,5 @@
+# *Under Construction!* I am still working on this, to make it easily installable.
+
 # browser-extension-template
 
 [link-webext-polyfill]: https://github.com/mozilla/webextension-polyfill
