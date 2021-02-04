@@ -2,6 +2,10 @@ browser.contextMenus.create({
 	id: "open-in-bundle-viewer",
 	title: "Open in Bundle Viewer",
 	contexts: ["link"],
+	documentUrlPatterns: [
+		'*://community.octoprint.org/*',
+		'*://github.com/*'
+	]
 });
 browser.contextMenus.onClicked.addListener((info, tab) => {
 	if (info.menuItemId === "open-in-bundle-viewer") {
