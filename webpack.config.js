@@ -8,7 +8,6 @@ module.exports = {
 	stats: 'errors-only',
 	entry: {
 		background: './source/background',
-		options: './source/options'
 	},
 	output: {
 		path: path.join(__dirname, 'distribution'),
@@ -32,11 +31,7 @@ module.exports = {
 			new TerserPlugin({
 				terserOptions: {
 					mangle: false,
-					compress: false,
-					output: {
-						beautify: true,
-						indent_level: 2 // eslint-disable-line camelcase
-					}
+					compress: true,
 				}
 			})
 		]
