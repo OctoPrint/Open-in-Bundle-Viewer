@@ -1,6 +1,6 @@
 {
 	"name": "Open In Bundle Viewer",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Add a link to open in OctoPrint's bundle viewer in the context menu",
 	"homepage_url": "https://github.com/OctoPrint/Open-in-Bundle-Viewer",
 	"manifest_version": 2,
