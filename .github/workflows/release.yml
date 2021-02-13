@@ -5,8 +5,8 @@ env: {}
 name: Release
 on:
   workflow_dispatch: null
-  schedule:
-    - cron: 31 12 * * 6
+  #schedule:
+  #  - cron: 31 12 * * 6
 jobs:
   Version:
     outputs:
