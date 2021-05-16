@@ -2,6 +2,10 @@
 
 This is a simple browser extension that adds an entry to the context menu to open a file using https://bundleviewer.octoprint.org
 
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pjjocccheogfceldegkfnbfmobmblhpp?style=for-the-badge)
+
+![Mozilla Add-on](https://img.shields.io/amo/v/open-in-bundle-viewer?style=for-the-badge)
+
 ![screenshot](https://github.com/OctoPrint/Open-in-Bundle-Viewer/blob/master/media/screenshot.png)
 
 You can add it to Chrome from the [Chrome Web Store](https://chrome.google.com/webstore/detail/open-in-bundle-viewer/pjjocccheogfceldegkfnbfmobmblhpp). This also allows you to install it in the new Microsoft Edge.
