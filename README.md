@@ -3,7 +3,6 @@
 This is a simple browser extension that adds an entry to the context menu to open a file using https://bundleviewer.octoprint.org
 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pjjocccheogfceldegkfnbfmobmblhpp?style=for-the-badge)
-
 ![Mozilla Add-on](https://img.shields.io/amo/v/open-in-bundle-viewer?style=for-the-badge)
 
 ![screenshot](https://github.com/OctoPrint/Open-in-Bundle-Viewer/blob/master/media/screenshot.png)
@@ -43,7 +42,7 @@ Zip the distribution folder and upload to the stores. Firefox also needs the sou
 * Tab opens alongside current, contributed by [@foosel](https://github.com/foosel) ([#1](https://github.com/OctoPrint/Open-in-Bundle-Viewer/pull/1))
 
 #### 1.0.0
-* Extension released'
+* Extension released
 
 ## License
 Please see [LICENSE](https://github.com/OctoPrint/Open-in-Bundle-Viewer/blob/master/LICENSE) for license information.
