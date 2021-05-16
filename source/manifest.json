@@ -1,11 +1,10 @@
 {
 	"name": "Open In Bundle Viewer",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "Add a link to open in OctoPrint's bundle viewer in the context menu",
 	"homepage_url": "https://github.com/OctoPrint/Open-in-Bundle-Viewer",
 	"manifest_version": 2,
 	"minimum_chrome_version": "74",
-
 	"icons": {
 	  	"16": "img/tentacle-16.png",
 	  	"32": "img/tentacle-16.png",

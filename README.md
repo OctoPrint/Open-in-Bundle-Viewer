@@ -27,3 +27,21 @@ npm run build
 
 Zip the distribution folder and upload to the stores. Firefox also needs the source zip, which can be found on Github.
 
+## Changelog
+
+#### 1.2.0
+* Remove unused template code
+* Add ESLint configuration & run
+* Upgrade all dependencies (avoiding security issues)
+* Enable Dependabot regular updates
+
+#### 1.1.0
+* Tab opens alongside current, contributed by [@foosel](https://github.com/foosel) ([#1](https://github.com/OctoPrint/Open-in-Bundle-Viewer/pull/1))
+
+#### 1.0.0
+* Extension released'
+
+## License
+Please see [LICENSE](https://github.com/OctoPrint/Open-in-Bundle-Viewer/blob/master/LICENSE) for license information.
+
+Originally based on [browser-extension-template](https://github.com/fregante/browser-extension-template).
