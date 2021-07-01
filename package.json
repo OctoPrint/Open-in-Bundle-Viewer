@@ -8,7 +8,7 @@
 		"webextension-polyfill": "^0.8.0"
 	},
 	"devDependencies": {
-		"copy-webpack-plugin": "^9.0.0",
+		"copy-webpack-plugin": "^9.0.1",
 		"eslint": "^7.27.0",
 		"eslint-config-standard": "^16.0.3",
 		"eslint-plugin-import": "^2.23.4",
