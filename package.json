@@ -14,7 +14,7 @@
 		"eslint-plugin-import": "^2.24.2",
 		"eslint-plugin-node": "^11.1.0",
 		"eslint-plugin-promise": "^5.1.0",
-		"webpack": "^5.51.2",
+		"webpack": "^5.55.1",
 		"webpack-cli": "^4.8.0"
 	}
 }
