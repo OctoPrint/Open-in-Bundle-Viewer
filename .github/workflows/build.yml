@@ -20,12 +20,9 @@ jobs:
 
                 npm install
                 npm run build
-
-                cd distribution
-                zip -r ../open-in-bundle-viewer-v${EXTENSION_VERSION}.zip *
             
             - name: Archive
               uses: actions/upload-artifact@v4
               with:
-                name: open-in-bundle-viewer-v${{steps.build.outputs.extension-version}}
-                path: open-in-bundle-viewer-v${{steps.build.outputs.extension-version}}.zip
+                name: open-in-bundle-viewer-v${{steps.build.outputs.extension-version}}.zip
+                path: distribution
