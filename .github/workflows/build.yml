@@ -1,0 +1,31 @@
+name: Build Extension
+
+on:
+    push:
+
+jobs:
+    build-extension:
+        name: Build extension artifact
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - uses: actions/setup-node@v4
+
+            - name: Build
+              id: build
+              run: |
+                EXTENSION_VERSION=$(cat source/manifest.json | jq -r .version)
+                echo "extension-version=${EXTENSION_VERSION}" >> $GITHUB_OUTPUT
+
+                npm install
+                npm run build
+
+                cd distribution
+                zip -r ../open-in-bundle-viewer-v${EXTENSION_VERSION}.zip *
+            
+            - name: Archive
+              uses: actions/upload-artifact@v4
+              with:
+                name: open-in-bundle-viewer-v${{steps.build.outputs.extension-version}}
+                path: open-in-bundle-viewer-v${{steps.build.outputs.extension-version}}.zip
